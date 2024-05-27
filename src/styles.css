@@ -1,0 +1,17 @@
+/*
+*   GLOBAL STYLES
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+:root {
+    --board-color: #1a1a1a;
+}

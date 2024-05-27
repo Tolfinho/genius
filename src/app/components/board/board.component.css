@@ -1,0 +1,23 @@
+.board-container {
+    width: 650px;
+    height: 650px;
+    background-color: var(--board-color);
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.board-container .piece {
+    width: 100px;
+    height: 100px;
+    background-color: #E0E0E0;
+    border-radius: 8px;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+
+.board-container .piece:hover {
+    background-color: #a0a0a0;
+}

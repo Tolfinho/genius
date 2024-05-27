@@ -1,0 +1,8 @@
+.ui {
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+}
